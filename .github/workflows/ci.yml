@@ -16,4 +16,4 @@ jobs:
             - name: "Setup Node Js"
               uses: actions/setup-node@v4
               with:
-                node-versions: '21'
+                node-version: '21'
