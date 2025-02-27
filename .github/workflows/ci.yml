@@ -23,3 +23,12 @@ jobs:
 
             - name: "Clone the Reprository"
               uses: actions/checkout@v2
+
+            - name: "latest Directorities"
+              run: ls
+
+            - name: "Install Dependency"
+              run: npm run
+
+            - name: "latest Directorities"
+              run: ls
